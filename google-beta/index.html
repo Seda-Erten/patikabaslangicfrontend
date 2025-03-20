@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .logo {
+            margin-top: 50px;
+            position: relative;
+            display: inline-block;
+        }
+        .beta {
+            position: absolute;
+            top: 60px;
+            right: -50px;
+            font-size: 20px;
+            font-weight: bold;
+            color: gray;
+            transform: rotate(10deg);
+        }
+        .search-box {
+            margin: 20px;
+        }
+        .search-box input[type="text"] {
+            width: 300px;
+            padding: 5px;
+        }
+        .search-box input[type="submit"] {
+            padding: 5px 10px;
+            margin: 5px;
+        }
+        .links {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .column {
+            width: 30%;
+            padding: 10px;
+            background-color: #aef;
+            margin: 5px;
+        }
+        .column a {
+            display: block;
+            margin: 5px 0;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+        }
+    </style>
+
+       
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <span style="color: blue;">G</span>
+            <span style="color: red;">o</span>
+            <span style="color: yellow;">o</span>
+            <span style="color: blue;">g</span>
+            <span style="color: green;">l</span>
+            <span style="color: red;">e</span>
+        </div>
+    </div>
+    <p>Search the web using Google!</p>
+    <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <br>
+        <input type="submit" value="Google Search">
+        <input type="submit" value="I'm feeling lucky">
+    </div>
+    <div class="links">
+        <div class="column">
+            <strong>Special Searches</strong>
+            <a href="#">Stanford Search</a>
+            <a href="#">Linux Search</a>
+        </div>
+        <div class="column" style="background-color: #8dc6ff;">
+            <strong>Help!</strong>
+            <a href="#">About Google!</a>
+            <a href="#">Company Info</a>
+            <a href="#">Google! Logos</a>
+        </div>
+        <div class="column">
+            <strong>Get Google!</strong>
+            <p>updates monthly:</p>
+            <input type="email" placeholder="your e-mail">
+            <br>
+            <input type="submit" value="Subscribe">
+            <a href="#">Archive</a>
+        </div>
+    </div>
+    <div class="footer">
+        Copyright &copy; 1998 Google Inc.
+    </div>
+</body>
+</html>
